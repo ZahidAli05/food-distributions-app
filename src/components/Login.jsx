@@ -33,7 +33,7 @@ const Login = ({ loginUser }) => {
         <div className="login-header">
           <div className="logo">
             <i className="fas fa-utensils"></i>
-            <h1>Saylani Food Distribution System</h1>
+            <h1>Sadqah Food Distribution System</h1>
           </div>
           <p className="subtitle">Manage food packages for people in need</p>
         </div>
@@ -69,11 +69,11 @@ const Login = ({ loginUser }) => {
             />
           </div>
 
-          {/* <div className="demo-credentials">
+          <div className="demo-credentials">
             <h4>Demo Credentials:</h4>
             <p><strong>Admin:</strong> admin@food.org / admin123</p>
             <p><strong>Staff:</strong> staff@food.org / staff123</p>
-          </div> */}
+          </div>
 
           <button type="submit" className="btn-login" disabled={isLoading}>
             {isLoading ? (
@@ -89,7 +89,7 @@ const Login = ({ loginUser }) => {
         </form>
 
         <div className="login-footer">
-          <p>Need help? Contact Saylani@fooddistribution.org</p>
+          <p>Need help? Contact sadqah@fooddistribution.org</p>
         </div>
       </div>
     </div>

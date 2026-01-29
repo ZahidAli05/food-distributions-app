@@ -1,4 +1,3 @@
-// components/Navbar.jsx
 import React from 'react';
 import { NavLink, useNavigate } from 'react-router-dom';
 import './Navbar.css';
@@ -19,7 +18,7 @@ const Navbar = ({ user, logoutUser }) => {
         <div className="navbar-brand">
           <i className="fas fa-utensils"></i>
           <div className="brand-text">
-            <h2>Saylani Food Distribution System</h2>
+            <h2>Sadqah Food Distribution System</h2>
             <p className="user-role">{user?.name} ({user?.role})</p>
           </div>
         </div>
